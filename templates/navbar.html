@@ -11,5 +11,6 @@
 {% else %}
 <a href="{% url 'login' %}">Login</a>
 {% endif %}
+<p>Hello {{request.user}}</p>
 
 <hr>
